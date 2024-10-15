@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/videoCall"
+        android:icon="@drawable/baseline_videocam_24"
+        android:title="Video call"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/voiceCall"
+        android:icon="@drawable/baseline_local_phone_24"
+        android:title="Voice call"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/contat"
+        android:title="View contact"
+        />
+    <item
+        android:id="@+id/media"
+        android:title="Media,links and docs"
+        />
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        />
+
+    <item
+        android:id="@+id/mute"
+        android:title="Mute notifications"
+        />
+
+    <item
+        android:id="@+id/disappearing"
+        android:title="Disapperaring messages"
+        />
+    <item
+        android:id="@+id/wallpaper"
+        android:title="Wallpaper"
+        />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:iconTint="@color/white"
+        >
+        <menu>
+            <item
+                android:id="@+id/report"
+                android:title="Report"/>
+            <item
+                android:id="@+id/block"
+                android:title="Block"/>
+            <item
+                android:id="@+id/clear"
+                android:title="Clear chat"/>
+            <item
+                android:id="@+id/export"
+                android:title="Export chat"/>
+            <item
+                android:id="@+id/shortcut"
+                android:title="Add shortcut"/>
+        </menu>
+
+    </item>
+</menu>

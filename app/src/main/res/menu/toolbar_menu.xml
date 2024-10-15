@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/baseline_camera_alt_24"
+        android:title="camera"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/main_search_button"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search Button"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/new_group"
+        android:title="New group"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/broadcast"
+        android:title="Broadcast"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/linked"
+        android:title="Linked devices"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/starred"
+        android:title="Starred messegas"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+
+
+
+
+</menu>
